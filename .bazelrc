@@ -1,0 +1,15 @@
+common --enable_bzlmod
+
+build --verbose_failures
+build -c opt
+build --cxxopt=-std=c++20
+build --cxxopt=-pthread
+build --linkopt=-pthread
+
+# Same flags as CMakeLists.txt.
+build --copt=-O3
+build --copt=-march=native
+build --copt=-mcx16
+build --copt=-fno-plt
+build --copt=-DPARLAY_USE_STD_ALLOC
+build --copt=-UNDEBUG

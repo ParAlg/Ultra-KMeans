@@ -1,0 +1,12 @@
+[submodule "third_party/parlaylib"]
+	path = third_party/parlaylib
+	url = https://github.com/ParAlg/parlaylib.git
+[submodule "third_party/ParlayANN"]
+	path = third_party/ParlayANN
+	url = https://github.com/Akatsukis/ParlayANN.git
+[submodule "third_party/CPAM"]
+	path = third_party/CPAM
+	url = https://github.com/ParAlg/CPAM.git
+[submodule "third_party/eigen"]
+	path = third_party/eigen
+	url = https://github.com/eigen-mirror/eigen.git
